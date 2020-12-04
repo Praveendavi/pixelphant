@@ -1,0 +1,172 @@
+.profile_section{
+    width: 80%;
+    float: left;
+    height: auto;
+    margin: 0 10%;
+}
+.profile_section .profile_wrapper{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.user_profile_container{
+    width: 100%;
+    float: left;
+    height: 70vh;
+}
+.cover_img{
+    width: 100%;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+.cover_img img{
+    width: 100%;
+    height: 100%;
+    float: left;
+ 
+}
+.change_cover{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: block;
+    z-index: 1000;
+}
+.cover_img_btn{
+    display: block;
+    padding: 5px 20px 5px 20px;
+    background: #0088ff;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    box-shadow: -1px 7px 20px rgb(141 141 153);
+}
+.user_profile_img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    vertical-align: middle;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+.user_profile_img img{
+    width: 100%;
+    border-radius: 50%;
+    vertical-align: middle;
+    object-fit: cover;
+    height: 100%;
+    cursor: pointer;
+    background-size: cover;
+    box-shadow: 0px 0px 10px #ffffff8c;
+    -webkit-box-shadow: -5px 1px 9px 0px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: -5px 1px 9px 0px rgba(0, 0, 0, 0.39);
+    box-shadow: -5px 1px 9px 0px rgba(0, 0, 0, 0.39);
+}
+
+.change_profile{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.user_profile_img .change_profile label{
+    background: #e7e7e7;
+    padding: 10px 11px;
+    border-radius: 50%;   
+    cursor: pointer;
+}
+.MuiSvgIcon-root{
+    width: 20px !important;
+    height: 20px !important;
+    color: rgb(29, 32, 32) !important;
+}
+.MuiIconButton-root{
+    background: rgb(168, 168, 168) !important;
+
+}
+.user_profile_info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: -124px;
+    left: 0;
+ 
+}
+.user_profile_info .name{
+   display: block;
+   float: left;
+   text-transform: capitalize;
+}
+.user_profile_info .name h6{
+    font-size: 22px;
+    font-weight: 400;
+}
+.user_connection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+    width: 50%;
+}
+.user_connection span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_gallery{
+    width: 100%;
+    float: left;
+    height: auto;
+}
+ .user_gallery .gallery_wrapper{
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1vmin;
+    grid-auto-flow: dense;
+}
+ .user_gallery .gallery_wrapper img{
+   width: 100%;
+   position: relative;
+   height: auto;
+   overflow: hidden;
+   transition: 0.2s ease-in-out;
+   cursor: pointer;
+}
+
+.user_gallery .gallery_wrapper img:hover{
+    transform: scale(0.99);
+    box-shadow: -5px 10px 8px rgb(99 110 124 / 29%);
+}  
+.user_gallery img.item_img{
+    width: 100%;
+    float: left;
+    height: auto;
+}
+.user_header{
+    display: block;
+    float: left;
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 40px;
+}
+.user_header h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+.create_img_wrapper{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 250px 0px;
+}

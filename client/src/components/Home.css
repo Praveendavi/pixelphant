@@ -1,0 +1,128 @@
+.home_section{
+    width: 80%;
+    float: left;
+    height: auto;
+    margin: 0 10%;
+}
+.home_wrapper{
+    width: 60% ;
+    float: left;
+    height: auto;
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.home_wrapper .card_wrapper{
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    float: left;
+    background: #fff;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px rgb(159 159 159 / 73%);
+    margin: 20px 0px;
+}
+.home_wrapper .card_wrapper .card_header_info{
+    display: block;
+    float: left;
+    padding: 5px;
+    width: 100%;
+}
+.home_wrapper .card_wrapper .card_header_info h4{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.home_wrapper .card_wrapper .card_header_info h4 .user_name{
+    text-decoration: none;
+    color: #000;
+}
+.delete-icon{
+    display: block;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #000;
+}
+.delete-icon:hover{
+    color: rgb(255, 38, 0);
+}
+.home_wrapper .card_wrapper .card_body{
+    width: 100%;
+    float: left;
+    height: auto;
+}
+ img{
+    width: 100%;
+    float: left;
+    height: auto;
+}
+.home_wrapper .card_wrapper .card_body .post_text_info{
+    display: block;
+    float: left;
+    height: auto;
+    padding: 5px;
+    width: 100%;
+}
+.home_wrapper .card_wrapper .card_body .post_text_info h6{
+    font-size: 18px;
+}
+
+.home_wrapper .card_wrapper .card_body .post_text_info  p{
+    display: block;
+    float: left;
+    font-size: 14px !important;
+}
+.home_wrapper .card_wrapper .card_body .post_text_info input{
+    display: block;
+    border: 1px solid #e7e7e7;
+    padding: 6px 0px;
+    outline: none;
+    font-size: 15px;
+    height: auto;
+    width: 99%;
+    margin: 0 auto;
+}
+.MuiPaper-root{
+    margin: 20px 0px;
+}
+.MuiContainer-root {
+    width: 100% !important;
+    float: left;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    display: block !important;
+}
+.post_info_btns{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post_btns_info .like_btn{
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    outline: none;
+    padding: 5px 10px;
+    width: 50%;
+}
+.like_icon{
+    font-size: 22px !important;
+    cursor: pointer;
+    display: block;
+}
+.dislike_icon{
+    font-size: 22px !important;
+    color: rgb(44, 58, 182);
+    display: block;
+    width: 100%;
+}
+.comments{
+    font-size: 12px !important;
+    width: 100%;
+
+}
+.comments > span{
+    font-size: 18px;
+    margin-right: 20px;
+}

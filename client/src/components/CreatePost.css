@@ -1,0 +1,144 @@
+input[type="file"]{
+    display: none;
+}
+  
+.MuiSvgIcon-root{
+    font-size: 3em !important;
+}
+.post_btn{
+    cursor: pointer;
+    padding: 8px 25px 8px 25px;
+    outline: none !important;
+    color: #fff;
+    background: #0088ff;
+    border: none;
+    font-size: 16px;
+    display: block !important;
+    width: 100%;
+    text-align: center;
+}
+.createpost_section{
+    width: 100%;
+    float: left;
+    height: auto;
+}
+.createpost_section .cratepost_wrapper{
+    width: 100%;
+    float: left;
+    height: auto;
+}
+.createpost_section .cratepost_wrapper .create_post{
+    display: block;
+    float: left;
+    width: 100%;
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.createpost_section .cratepost_wrapper .create_post h4{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.createpost_section .cratepost_wrapper textarea{
+    border: 1px solid #e7e7e7;
+    padding: 5px 10px;
+    margin: 15px 0px;
+    outline: none;
+    font-size: 15px;
+    width: 100% !important;
+    color: rgb(207, 204, 204);
+}
+
+.post_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    float: left;
+    height: 100%;
+    background: #2c3e50;
+    padding: 100px 50px;
+}
+.post_block .add_photo{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.post_block .add_photo .add_photo_block{
+    display: block;
+    float: left;
+    background: #fff;
+    height: 100%;
+    padding: 20px 10px 80px 10px;
+    transform: rotate(-10deg);
+    box-shadow: -1px 0px 3px #c2c2c2;
+    width: 50%;
+    margin-left: 50px;
+}
+.post_block .add_photo .add_photo_block .add_photo_card{
+    float: left;
+    border-radius: 3px;
+    position: relative;
+    width: 100%;
+    box-shadow: 2px 2px 20px#00000042;
+  
+}
+.post_block .add_photo .add_photo_block .add_photo_card .card_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(to top, #0072ffbf, #00968861); */
+}
+.post_block .add_photo .add_photo_block .add_photo_card span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    flex-direction: column;
+    color: #ffffff;
+    z-index: 1000;
+}
+.post_block .add_photo .add_photo_block .add_photo_card span small{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}   
+.post_block .add_content{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.btn-floating{
+    background-color: #e5e5e5;
+}
+.TextareaAutosize{
+    color: #ff0;
+}
+.img_block{
+    width: 100%;
+    height: 50vh;
+    float: left;
+    background: #fff;
+    background-image: url('../images/pexels-mihai-stefan-photography-1384219.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.img_block img{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.img_block label{
+    width: 100%;
+    float: left;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
